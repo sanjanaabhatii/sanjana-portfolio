@@ -520,7 +520,7 @@ const Portfolio = () => {
               <div className="pt-6 border-t border-purple-500/30">
                 <div className="text-slate-400 mb-3 text-sm">When I'm Not Coding</div>
                 <div className="flex flex-wrap gap-2">
-                  {['Gym', 'Meditation', 'Writing', 'Travel'].map(interest => (
+                  {['Gym', 'Meditation', 'Journaling', 'Watching Travel Videos', 'Cafe Hopping'].map(interest => (
                     <span key={interest} className="px-3 py-1 bg-purple-500/20 rounded-full text-purple-300 text-xs sm:text-sm">
                       {interest}
                     </span>
